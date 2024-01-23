@@ -20,11 +20,13 @@ func main() {
 	}
 	fmt.Println(nomor[0])
 
-	var number = [3]int{
+	var number = [...]int{
 		19,
 		21,
 		123,
+		122,
 	}
 	fmt.Println(number[1])
+	fmt.Println(len(number))
 
 }
