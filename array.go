@@ -29,4 +29,11 @@ func main() {
 	fmt.Println(number[1])
 	fmt.Println(len(number))
 
+	var name = [...]string{
+		"mifthahuddin",
+		"king",
+		"huddin",
+	}
+	fmt.Println(name[0])
+
 }
